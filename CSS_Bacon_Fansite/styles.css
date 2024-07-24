@@ -19,9 +19,11 @@ img {
     background-color: blue;
     color: white;
     border-radius: 5px;
+    padding: 8px;
 }
 .danger {
     background-color: red;
     color: white;
     border-radius: 5px;
+    
 }
