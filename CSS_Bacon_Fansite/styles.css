@@ -1,11 +1,12 @@
 h1 {
     color: red;
 }
-/*
-img {
-    background-color: green;
+
+img:hover {
+    background-color: rgb(100, 83, 196);
 }    
-*/
+
+/******************** CLASS SELECTORS***************/
 
 .bacon {
     background-color: rgb(212, 193, 193);
@@ -20,10 +21,25 @@ img {
     color: white;
     border-radius: 5px;
     padding: 8px;
+    margin: 2px;
+}
+
+.circular {
+    border-radius: 100%;
 }
 .danger {
     background-color: red;
     color: white;
     border-radius: 5px;
-    
+    padding: 8px;
+    margin: 2px;
+}
+
+/*****************************ID SELECTORS*****************************/
+
+#heading {
+    color: rgb(221, 247, 77);
+}
+#big {
+    font-size: 1000px;
 }
