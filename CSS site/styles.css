@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+}
+h1 {
+    margin-top: 0px;
+}
+div {
+    background-color: #DEF9C4;
+}
+.red {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+.blue {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+.yellow {
+    background-color: yellow;
+    height: 200px;
+    width: 200px; 
+    display: inline-block;
+}
+.green {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+.pink {
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 200px;
+}
+.brown {
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 400px;
+    top: 713px; 
+}
