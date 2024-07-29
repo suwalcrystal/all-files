@@ -7,13 +7,21 @@ h1 {
 div {
     background-color: #DEF9C4;
 }
-.div1 {
+.red {
     background-color: red;
     height: 200px;
     width: 200px;
+    display: inline-block;
 }
-.div2 {
+.blue {
     background-color: blue;
     height: 200px;
     width: 200px;
+    display: inline-block;
+}
+.yellow {
+    background-color: yellow;
+    height: 200px;
+    width: 200px; 
+    display: inline-block;
 }
