@@ -1,0 +1,24 @@
+.rectangle{
+    height: 200px;
+    width: 200px;
+}
+
+.container{
+    background-color: rgb(205, 205, 237);
+    height: 100vh;
+}
+.yellow{
+    background-color: rgb(255, 204, 0); 
+    position: relative;
+}
+.red{
+    background-color: red;
+
+}
+.child1{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    position: absolute;
+    right: 0;
+}
