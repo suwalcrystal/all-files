@@ -6,13 +6,17 @@ body {
 h1 {
     margin-top: 0px;
     width: 100%;
-    margin: 0 auto;
+    margin: 50px auto 0 auto;
     /* font-family: "Montserrat", sans-serif;
     font-style: normal; */
         font-family: "Montez", cursive;
         font-weight: 900;
         font-style: normal;    
-        font-size: 35px;  
+        font-size: 5.625rem;  
+}
+
+h2 {
+    font-size: 2rem;
 }
 
 .top-container {
@@ -23,50 +27,6 @@ h1 {
 
 span {
     text-decoration: underline;
-}
-
-.red {
-    background-color: red;
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-}
-
-.blue {
-    background-color: blue;
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-}
-
-.yellow {
-    background-color: yellow;
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-}
-
-.green {
-    background-color: green;
-    height: 200px;
-    width: 200px;
-}
-
-.pink {
-    background-color: pink;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    left: 200px;
-}
-
-.orange {
-    background-color: orangered;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    left: 400px;
-    top: 713px;
 }
 
 .top-cloud {
@@ -80,7 +40,7 @@ span {
     left: 300px;
     bottom: 300px;
 }
-img {
+.bob {
     width: 250px;
     height: 250px;
     border-radius: 100%;
