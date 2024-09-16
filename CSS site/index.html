@@ -3,14 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kristal Suwal</title>
+    <title>Kristal Suwal 💚</title>
     <link rel="stylesheet" href="./styles.css" />
     <link rel="icon" href="./favicon.ico" />
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&display=swap"
-        rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -31,6 +26,10 @@
       <div class="profile">
         <img class="bob" src="./images/20240219_180005.jpg" alt="bobby_di" />
         <h2>Hello.</h2>
+        <form id="formTag" action="">
+          <input type="email" name="email" />
+          <input type="submit" />
+        </form>
         <p>
           Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna.
           Non auctor, montes nulla distinctio.
@@ -76,5 +75,15 @@
       <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
       <p>© Name Surname.</p>
     </div>
+    <script>
+      const form = document.getElementById('formTag')
+      form.addEventListener('submit', (event) => {
+        event.preventDefault(); // Prevent the default form submission
+        const emailValue = form.elements.namedItem("email").value;
+        console.log(emailValue, "x");
+      });
+
+      const
+    </script>
   </body>
 </html>
